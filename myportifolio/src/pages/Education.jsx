@@ -3,6 +3,7 @@ const Education = () => {
     const Parcours = [{school:'EPKMA',year:2022,diplome:'Baccalaureat'},
         {school:'ESP',year:"2022-2024",diplome:'Diplome Supérieur de Technologies en Informatique'},
         {school:'ESP',year:"2024-2025",diplome:'Licence en Génie Logiciel & Systemes dInformation'},
+        {school:'ESP',year:"2025-2026",diplome: 'Master 1 en GLSI'}
     ]
 
     return(
