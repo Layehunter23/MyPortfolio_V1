@@ -16,15 +16,13 @@ function App() {
 
   return (
     <>
-    <h4>Keep Working</h4>
-  <NavBar></NavBar>
-  <a href="mailto:papa.a.barry@gmail.com">My Mail</a>
-    <Routes>
-      <Route path="/" element={<Profile/>}></Route>
-      <Route path="/education" element={<Education/>}></Route>
-      <Route path="/experiences" element={<Experience/>}></Route>
     
-    </Routes>
+  <NavBar></NavBar>
+  <Profile></Profile>
+  <Education></Education>
+  <Experience></Experience>
+  <Skills></Skills>
+  <Footer></Footer>
     
     </>
   )

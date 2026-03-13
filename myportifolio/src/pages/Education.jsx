@@ -8,7 +8,7 @@ const Education = () => {
 
     return(
         <>
-        <main className="mt-35">
+        <main className="mt-35" id="edu">
         <div className='flex items-center text-center justify-center gap-3'>
         <h1 className="text-3xl  text-blue-100">Education</h1>
         <img src={school} alt="SCHOOL" className='h-20'></img>
