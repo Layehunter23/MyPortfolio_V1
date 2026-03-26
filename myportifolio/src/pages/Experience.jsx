@@ -15,7 +15,8 @@ const Experience = () => {
             <div className="grid grid-cols-3 gap-4"> 
                 {Jobs.map(job => (
                 <div className="bg-fuchsia-100 flex w-100 flex-col  text-center  mt-10 p-5 rounded-4xl">
-                    <h3>{job.Poste}~~{job.ent}</h3>
+                    <h3>{job.Poste}</h3>
+                    <h3 className='flex flex-col items-start justify-end'>Ent: {job.ent}</h3>
                     <h4 className="flex flex-col items-end ">{job.year}</h4>
                 </div>
              ))}
