@@ -1,27 +1,33 @@
 const Skills = () => {
     return(
         <>
-        <div id="skills"className="flex flex-col justify-center items-center  mt-10">
+        <div id="skills"className="flex flex-col justify-center items-center  mt-10 mb-20">
         <h1 className="text-3xl text-blue-100 text-center">Skills</h1><br></br>
         <h3 className="text-2xl text-blue-100">- Languages</h3><br></br>
-        <div className="flex flex-rows-4">
-        <img className ="h-35 rounded-2xl"src="/JS.jpg" alt="JavaScript" />
-        <img src="" alt="Python" />
-        <img className="h-35"src="/java.png" alt="Java" />
-        <img src="" alt="PHP" />
-        <img src="" alt="C" />
-        <img src="" alt="HTML" />
-        <img src="" alt="CSS" />
+        <div className="grid grid-cols-6 gap-2">
+        <img className ="h-35 rounded-3xl"src="/javascript.svg" alt="JavaScript" />
+        <img className ="h-35" src="/python.svg" alt="Python" />
+        <img className="h-35 rounded-3xl" src="/java.svg" alt="Java" />
+        <img className="h-35" src="php.svg" alt="PHP" />
+        <img className="h-35" src="C.svg" alt="C" />
+        <img className="h-35" src="html.svg" alt="HTML" />
+        <img className="h-35" src="css.svg" alt="CSS" />
         </div><br></br>
         <h3 className="text-2xl text-blue-100">- Frameworks</h3><br></br>
-        <div className="flex flex-rows-2">
-            <img src="" alt="Django" />
-            <img src="" alt="ReactJS"/> 
-            <img src="" alt="NodeJS" />
-            <img src="" alt="TailwindCSS" />
-            <img src="" alt="Laravel" />
+        <div className="grid grid-cols-5 gap-2">
+            <img className="h-35" src="/django.svg" alt="Django" />
+            <img className="h-35" src="/react.svg" alt="ReactJS"/> 
+            <img className="h-35" src="nodejs.svg" alt="NodeJS" />
+            <img className="h-35" src="/tailwindcss.svg" alt="TailwindCSS" />
+            <img className="h-35" src="laravel.svg" alt="Laravel" />
+         </div>
 
-
+         <h3 className="text-2xl text-blue-100 mt-5">- Other Tools</h3><br></br>
+         <div className="grid grid-cols-5 gap-2">
+            <img className="h-35" src="git.svg" alt="Git" />
+            <img className="h-35 bg-white rounded-2xl" src="/github.svg" alt="Github"/> 
+            <img className="h-35 bg-white rounded-2xl" src="/mysql.svg" alt="MySQL"/> 
+            <img className="h-35" src="/mongodb.svg" alt="MongoDB"/> 
         </div>
         </div>
         </>
