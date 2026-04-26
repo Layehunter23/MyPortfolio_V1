@@ -12,9 +12,9 @@ const Experience = () => {
                 <h1 className="text-3xl  text-blue-100">Experiences</h1>
                 
             </div>
-            <div className="grid grid-cols-3 gap-4"> 
+            <div className="grid grid-cols-3 gap-4 sm:grid-cols-1 sm:justify-items-center max-sm:grid-cols-1 max-sm:justify-items-center"> 
                 {Jobs.map(job => (
-                <div className="bg-fuchsia-100 flex w-100 flex-col  text-center  mt-10 p-5 rounded-4xl">
+                <div className="bg-fuchsia-100 flex w-100 flex-col  text-center  mt-10 p-5 rounded-4xl sm:w-150 max-sm:w-80">
                     <h3>{job.Poste}</h3>
                     <h3 className='flex flex-col items-start justify-end'>Ent: {job.ent}</h3>
                     <h4 className="flex flex-col items-end ">{job.year}</h4>

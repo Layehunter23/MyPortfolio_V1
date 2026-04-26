@@ -17,6 +17,14 @@ const NavBar = () => {
       <a href="#skills"><h3 className='hover:text-red-900'>Skills</h3></a>
       <a href="#contact"><h3 className='hover:text-red-900'>Contact</h3></a>
     </nav>
+    <button className='relative'>
+      Menu
+      <div className='absolute top-full border border-amber-200'>
+        <a href="">Education</a>
+        <a href="">Experiences</a>
+        <a href="">Skills</a>
+        <a href="">Contact</a></div>
+    </button>
     
     
     

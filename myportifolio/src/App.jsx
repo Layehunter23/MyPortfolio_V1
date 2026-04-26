@@ -9,6 +9,7 @@ import Experience from './pages/Experience'
 import Skills from './pages/Skills'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
+import About from  './pages/About'
 import {Routes , Route} from 'react-router-dom'
 
 
