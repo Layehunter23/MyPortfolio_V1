@@ -20,6 +20,7 @@ function App() {
     
   <NavBar></NavBar>
   <Profile></Profile>
+  <About></About>
   <Education></Education>
   <Experience></Experience>
   <Skills></Skills>

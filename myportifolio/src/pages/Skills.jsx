@@ -5,7 +5,7 @@ const Skills = () => {
         <h1 className="text-3xl text-blue-100 text-center">Skills</h1><br></br>
         <h3 className="text-2xl text-blue-100">- Languages</h3><br></br>
         <div className="grid grid-cols-6 gap-10 sm:justify-items-center sm:mx-10 max-sm:mx-10">
-        <img className ="h-35 rounded-3xl " src="/javascript.svg" alt="JavaScript" />
+        <img className ="h-35 rounded-3xl max-sm: " src="/javascript.svg" alt="JavaScript" />
         <img className ="h-35" src="/python.svg" alt="Python" />
         <img className="h-35 rounded-3xl" src="/java.svg" alt="Java" />
         <img className="h-35" src="php.svg" alt="PHP" />
@@ -14,8 +14,8 @@ const Skills = () => {
         <img className="h-35" src="css.svg" alt="CSS" />
         </div><br></br>
         <h3 className="text-2xl text-blue-100">- Frameworks</h3><br></br>
-        <div className="grid grid-cols-5 gap-10 sm:mx-10 max-sm:mx-10">
-            <img className="block h-35 " src="/django.svg" alt="Django" />
+        <div className="grid grid-cols-5 gap-10 sm:mx-10 max-sm:mx-10 max-sm:object-contain">
+            <img className="block h-35" src="/django.svg" alt="Django" />
             <img className="h-35" src="/react.svg" alt="ReactJS"/> 
             <img className="h-35" src="nodejs.svg" alt="NodeJS" />
             <img className="h-35" src="/tailwindcss.svg" alt="TailwindCSS" />
@@ -23,8 +23,8 @@ const Skills = () => {
          </div>
 
          <h3 className="text-2xl text-blue-100 mt-5">- Other Tools</h3><br></br>
-         <div className="grid grid-cols-5 gap-10 sm:mx-">
-            <img className="block h-35 max-sm:h-50" src="git.svg" alt="Git" />
+         <div className="grid grid-cols-5 gap-10 md:mx-10">
+            <img className="block h-35 max-sm:object-contain" src="git.svg" alt="Git" />
             <img className="h-35 bg-white rounded-2xl" src="/github.svg" alt="Github"/> 
             <img className="h-35 bg-white rounded-2xl" src="/mysql.svg" alt="MySQL"/> 
             <img className="h-35" src="/mongodb.svg" alt="MongoDB"/> 
