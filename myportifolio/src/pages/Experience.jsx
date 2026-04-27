@@ -12,7 +12,7 @@ const Experience = () => {
                 <h1 className="text-3xl  text-blue-100">Experiences</h1>
                 
             </div>
-            <div className="grid grid-cols-3 gap-5 max-sm:grid-cols-1 max-sm:justify-items-center  md:grid-cols-2"> 
+            <div className="grid grid-cols-3 gap-5 max-sm:grid-cols-1 max-sm:justify-items-center md:justify-items-center md:grid-cols-2 lg:grid-cols-3 "> 
                 {Jobs.map(job => (
                 <div className="bg-amber-300 flex w-100 flex-col  text-center  mt-10 p-5 rounded-4xl max-sm:w-80 max-lg:w-80 md:mx-5">
                     <h3>{job.Poste}</h3>

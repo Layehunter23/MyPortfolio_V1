@@ -2,8 +2,8 @@ const Skills = () => {
     return(
         <>
         <div id="skills"className="flex flex-col justify-center items-center  mt-10 mb-20">
-        <h1 className="text-3xl text-blue-100 text-center">Skills</h1><br></br>
-        <h3 className="text-2xl text-blue-100">- Languages</h3><br></br>
+        <h1 className="text-3xl text-blue-100 text-center">Competences</h1><br></br>
+        <h3 className="text-2xl text-blue-100">- Langages</h3><br></br>
         <div className="grid grid-cols-6 gap-2 sm:justify-items-center sm:mx-10 max-sm:mx-10">
         <img className ="h-35 rounded-3xl max-sm:rounded-3xl" src="/javascript.svg" alt="JavaScript" />
         <img className ="h-35" src="/python.svg" alt="Python" />
@@ -22,8 +22,8 @@ const Skills = () => {
             <img className="h-35" src="laravel.svg" alt="Laravel" />
          </div>
 
-         <h3 className="text-2xl text-blue-100 mt-5">- Other Tools</h3><br></br>
-         <div className="grid grid-cols-5 gap-2 md:mx-10 max-sm:ml-10 max-sm:mb-0.2">
+         <h3 className="text-2xl text-blue-100 mt-5">- Autres Outils</h3><br></br>
+         <div className="grid grid-cols-5 gap-2 md:mx-10 max-sm:ml-10 max-sm:mb-0.2 md:justify-items-center">
             <img className="block h-35" src="git.svg" alt="Git" />
             <img className="h-35 bg-white rounded-2xl  max-sm:object-contain max-sm:h-20" src="/github.svg" alt="Github"/> 
             <img className="h-35 bg-white rounded-2xl max-sm:object-contain max-sm:h-20" src="/mysql.svg" alt="MySQL"/> 
